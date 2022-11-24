@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  font-family: 'roboto';
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  width: 30vw;
+  height: 30vh;
+}
+.heading {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.select-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.res{
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "roboto";
+}
